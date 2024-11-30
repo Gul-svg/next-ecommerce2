@@ -2,9 +2,10 @@
 import { Modal } from "@/components/ui/Modal";
 import { useStoreModal } from "@/hooks/use-store-modal";
 import { UserButton } from "@clerk/nextjs";
+
 import Image from "next/image";
-// do untill 5 mins and than try to understand
-// todo:  1:05
+//
+// todo:  1:53
 import React, { Children, useEffect } from "react";
 
 const SetupPage = () => {

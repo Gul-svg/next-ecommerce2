@@ -9,6 +9,8 @@ import {
   UserButton,
 } from "@clerk/nextjs";
 import ModalProvider from "@/providers/modal-provider";
+import prismadb from "@/lib/prismadb";
+import ToastProvider from "@/providers/toast-provider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,6 +28,7 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body className={inter.className}>
+          <ToastProvider />
           <ModalProvider />
           {children}
         </body>
