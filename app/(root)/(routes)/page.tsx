@@ -5,7 +5,7 @@ import { UserButton } from "@clerk/nextjs";
 
 import Image from "next/image";
 //
-// todo:  1:53
+// todo:  3:35
 import React, { Children, useEffect } from "react";
 
 const SetupPage = () => {
@@ -17,7 +17,7 @@ const SetupPage = () => {
       onOpen();
     }
   }, [isOpen, onOpen]);
-  return <div className="p-4">root page</div>;
+  return null;
 };
 
 export default SetupPage;
