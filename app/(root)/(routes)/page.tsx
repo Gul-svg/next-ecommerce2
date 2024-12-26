@@ -5,7 +5,7 @@ import { UserButton } from "@clerk/nextjs";
 
 import Image from "next/image";
 //
-// todo:  3:35
+// todo:  5:15
 import React, { Children, useEffect } from "react";
 
 const SetupPage = () => {
