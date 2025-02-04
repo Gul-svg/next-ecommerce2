@@ -4,8 +4,7 @@ import { useStoreModal } from "@/hooks/use-store-modal";
 import { UserButton } from "@clerk/nextjs";
 
 import Image from "next/image";
-//
-// todo:  5:15
+
 import React, { Children, useEffect } from "react";
 
 const SetupPage = () => {
